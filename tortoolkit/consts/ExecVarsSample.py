@@ -7,18 +7,18 @@ except:
         
         API_HASH = "1a080fcc82689d915ed8a195972e95c6"
         API_ID = 7690551
-        BOT_TOKEN = "1908365984:AAEF5cGch9OhYbH-llhL06ldbvNw50CX4cA"
+        BOT_TOKEN = "1911443119:AAEethnDbrf4Mkgz_pT4xyuFKUtnhjBFAbE"
         BASE_URL_OF_BOT = "http://185.170.212.71"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001534491051]
+        ALD_USR = [607242887]
         OWNER_ID = 607242887
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -42,13 +42,13 @@ except:
         DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "0Vo2lCiT"
+        MEGA_UNAME = pablokgb@hekla.cloud
+        MEGA_PASS = adminasir2
 
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "https://gindex.hekla.cloud/0:/"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
