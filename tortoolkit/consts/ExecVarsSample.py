@@ -42,10 +42,10 @@ except:
         DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = True
+        MEGA_ENABLE = False
         MEGA_API = "0Vo2lCiT"
-        MEGA_UNAME = pablokgb@hekla.cloud
-        MEGA_PASS = adminasir2
+        MEGA_UNAME = "pablokgb@hekla.cloud"
+        MEGA_PASS = "adminasir2"
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "https://gindex.hekla.cloud/0:/"
@@ -88,8 +88,8 @@ except:
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
-        USER_CAP_ENABLE = False
-        USER_CAP_LIMIT = [50,10,2]
+        USER_CAP_ENABLE = True
+        USER_CAP_LIMIT = [15,10,2]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
